@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import Vendor from "../../models/vendor.model";
 import { connectToDatabase } from "./../../connect";
 import { cookies } from "next/headers";
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const jwt = require("jsonwebtoken");
 const { ObjectId } = mongoose.Types;
 
